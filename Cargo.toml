@@ -25,7 +25,7 @@ zip = { version = "2.2", optional = true, default-features = false, features = [
 
 [dev-dependencies]
 proptest = "1"
-proptest-derive = "0.5"
+proptest-derive = "0.6"
 walkdir = "2"
 rand = "0.8"
 rayon = "1"
