@@ -1,0 +1,22 @@
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: "1%"
+ignore:
+  - tests
+flag_management:
+  default_rules:
+    carryforward: false
+
+component_management:
+  individual_components:
+    - component_id: jvm
+      name: JVM
+      paths:
+        - src/jvm/**
+    - component_id: rustybytecode_ir
+      name: Rustybytecode IR
+      paths:
+        - src/ir/**
